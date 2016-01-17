@@ -61,7 +61,7 @@ html, body {
 	margin-top: 275px;
 	width: 350px;
 	height: 215px;
-	background: rgb(254,249,246);
+	background: #fff;
 	border-radius: 4px;
 }
 
@@ -287,7 +287,7 @@ textarea {
 	margin-left: 30px;
 	width: 370px;
 	height: 275px;
-	background: rgb(254,249,246);
+	background: #fff;
 	margin-top: -275px;
 	border-radius: 3px;
 }
