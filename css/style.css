@@ -47,11 +47,13 @@ html, body {
 .nav div {
 	width: 16.67%;
 	margin: none;
-	height: 40px;
-	float: left
+	height: 30px;
+	float: left;
+	text-align: center;
 }	
 
 .nav div a {
+	margin-top: 10px;
 	color: white;
 	text-decoration: none;
 	font-size: 18px;
