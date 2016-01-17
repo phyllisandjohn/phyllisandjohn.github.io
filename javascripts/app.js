@@ -13,8 +13,8 @@ angular
       });
     };
     
-    $scope.addSong = function (track) {  
-      Spotify.addPlaylistTracks('1249169823', '5xGlCjEssIbP9yVPd62uy2', track);  
+    $scope.hover = function (track) {  
+      angular.element(document).find("input").val(track);
     };    
   }]);
 
