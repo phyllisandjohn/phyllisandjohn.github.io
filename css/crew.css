@@ -39,7 +39,7 @@
   background: rgba(122,201,191,.5);
   color: white;
 }
-.supporting ul li img + .supporting .details {
+.supporting ul li img:hover + .supporting .details {
   display: block;
 }
 
