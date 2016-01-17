@@ -71,9 +71,13 @@
 </div>
 <script>
 	var main = function(){
+		$( ".details" ).hide();
 		
+		$( ".details" ).hover(function() {
+			$( this ).fadeIn( 500 );
+		}
 	}
-	
+	$(document).ready(main);
 </script>
 </body>
 </html>
