@@ -1,5 +1,5 @@
-html, body {
-  margin: 0;
+html {
+  margin-top: -16px;
 }
 
 .search input[type="text"] {
