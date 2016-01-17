@@ -6,12 +6,17 @@ angular
     SpotifyProvider.setScope('playlist-read-private');
   })
   .controller('MainController', ['$scope', 'Spotify', function ($scope, Spotify) {
+    $scope.names = [
+            'Please',
+            'Work'
+        ];
 
     $scope.searchArtist = function () {
       Spotify.search($scope.searchartist, 'artist,track').then(function (data) {
         $scope.artists = data.artists.items;
         
         for(var i = 0; i < data.artists.items.length; i++) {
+          $scope.names.push(data.artists.items[i]["name"]);
           console.log(data.artists.items[i]["name"]);
         }
       });
