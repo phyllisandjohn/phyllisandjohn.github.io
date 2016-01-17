@@ -27,8 +27,8 @@
   	<input type="submit" value="REQUEST">
   </form>
   <ul>
-    <li ng-repeat="track in tracks">
-    	<span ng-mouseover="hoverTrack(track.name,track.album.name)" ng-click="searchTrack()"><b>{{track.name}}</b> <em>{{track.album.name}}</em></span>
+    <li ng-repeat="track in tracks" ng-mouseover="hoverTrack(track.name,track.album.name)">
+    	<span ng-click="searchTrack()"><b>{{track.name}}</b> <em>{{track.album.name}}</em></span>
     	<div ng-repeat="artist in track.artists">&nbsp;{{artist.name}}&nbsp;</div>
     </li>
   </ul>
