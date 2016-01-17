@@ -71,10 +71,8 @@
 </div>
 <script>
 	var main = function(){
-		$( ".details" ).hide();
-		
-		$( ".details" ).hover(function() {
-			$( this ).fadeIn( 500 );
+		$("ul li img").hover(function() {
+      			$( this ).toggleClass( "details" )
 		}
 	}
 	$(document).ready(main);
