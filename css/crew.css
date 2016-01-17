@@ -21,16 +21,20 @@
   list-style-type: none;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
 }
 
 .supporting ul li img {
-
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .supporting .details {
+  width: 200px;
+  height: 200px;
   position: absolute;
   text-align: center;
+  margin-top: 90px;
   background: rgba(255,255,255,.2);
 }
 
