@@ -43,6 +43,10 @@
   margin-top: 70px;
 }
 
+.supporting .details h3 {
+  margin: 0;
+}
+
 .groom .supporting-1, .groom .supporting-3 {
   margin-left: 40px; 
 }
