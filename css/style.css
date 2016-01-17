@@ -38,12 +38,13 @@ html, body {
 .header ul {
 	width: 100%;
 	padding: 5px;
-	margin: 22.5px 0px 0px 0px;	
+	margin: 0 auto;	
 }
 
 .header ul li {
 	list-style-type: none;
 	display: inline;
+	padding: 0px 15px;
 }
 
 .header ul li a {
