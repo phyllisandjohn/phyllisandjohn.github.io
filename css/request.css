@@ -26,6 +26,10 @@
   padding: 20px 15px 20px 15px;
 }
 
+.search ul li:hover {
+  background: rgba(122,201,191,.1);
+}
+
 .search ul li div {
   float: right 
 }
