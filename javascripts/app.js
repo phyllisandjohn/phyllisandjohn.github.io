@@ -13,8 +13,9 @@ angular
       });
     };
     
-    $scope.hoverTrack = function (track) {  
-      angular.element(document).find(".search-box").val(track);
+    $scope.hoverTrack = function (track) {
+      var el = document.getElementsByClassName("search-box"");
+      el.val(track);
       console.log(track)
     };    
     
