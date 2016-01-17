@@ -57,7 +57,7 @@ html, body {
 	position: fixed;
 	left: 50%;
 	margin-left: 25px;
-	margin-top: 150px;
+	margin-top: 300px;
 	width: 350px;
 	height: 215px;
 	background: rgb(254,249,246);
@@ -201,7 +201,7 @@ textarea {
 	position: absolute;
 	left: 50%;
 	margin-left: -350px;
-	margin-top: 225px;
+	margin-top: 600px;
 	-webkit-transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
 	-ms-transform: rotate(-15deg);
