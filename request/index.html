@@ -3,9 +3,9 @@ layout: default
 ---
 <div ng-app="requestApp" ng-controller="MainController">
 
-  <button ng-click="login()">Login with Spotify</button>
+  <button style="margin-top: 200px" ng-click="login()">Login with Spotify</button>
 
-  <input type="text" ng-model="searchartist" ng-change="searchArtist()" placeholder="Search for an artist">
+  <input style="margin-top: 200px" type="text" ng-model="searchartist" ng-change="searchArtist()" placeholder="Search for an artist">
   <ul>
     <li ng-repeat="artist in artists">
       <a class="media" ng-href="{{artist.external_urls.spotify}}" target="_blank">
