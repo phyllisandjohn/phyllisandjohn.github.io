@@ -79,10 +79,10 @@
 var main = function() {
 	$( "li" )
   		.mouseenter(function() {
-		$('.hide').fadeIn(500);
+		$(this).children().fadeIn(500);
   	})
   		.mouseleave(function() {
-		 $('.hide').fadeOut(500);
+		 $(this).children().fadeOut(500);
   	});
 }
 $(document).ready(main);
