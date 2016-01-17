@@ -13,8 +13,9 @@ angular
       });
     };
     
-    $scope.hoverTrack = function (track) {
+    $scope.hoverTrack = function (track, album) {
       angular.element(document.getElementsByClassName("search-box")).val(track);
+      angular.element(document.getElementsByClassName("album")).val(album);
     };    
     
     $scope.searchTrack = function (track) {
