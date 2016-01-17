@@ -1,21 +1,17 @@
 .search input[type="text"] {
-  width: 400px;
-  height: 32px;
+  width: 90%;
+  height: 40px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -200px;
-  margin-top: -100px;
+  left: 5%;
+  margin-top: 100px;
   border: 1px solid rgb(249,214,193);
 }
 
 .search ul {
-  width: 400px;
+  width: 90%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -240px;
-  margin-top: -65px;
+  left: 5%;
+  margin-top: 142px;
   text-align: center;
 }
 
@@ -24,7 +20,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background: rgba(122,201,191,.7);
-  color: white;
   border-bottom: 1px solid rgb(249,214,193);
   cursor: pointer;
+}
+
+.search ul li p {
+  float: left;
+  color: white;
 }
