@@ -11,8 +11,7 @@
   width: 90%;
   position: absolute;
   left: 5%;
-  margin-left: -40px;
-  padding-right: 2px;
+  margin-left: -39px;
   margin-top: 144px;
   text-align: center;
 }
@@ -20,6 +19,7 @@
 .search ul li {
   list-style-type: none;
   min-height: 40px;
+  max-height: 80px;
   border-bottom: 1px solid rgb(249,214,193);
   cursor: pointer;
   clear: both;
