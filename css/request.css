@@ -17,8 +17,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -200px;
-  margin-top: -68px;
+  margin-left: -220px;
+  margin-top: -65px;
   text-align: center;
   width: 400px;
 }
@@ -29,4 +29,9 @@
   padding-bottom: 10px;
   background: rgba(122,201,191,.7);
   border-bottom: 1px solid rgb(249,214,193);
+}
+
+.search ul li a {
+  text-decoration: none;
+  color: white;
 }
