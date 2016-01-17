@@ -11,13 +11,14 @@
   width: 90%;
   position: absolute;
   left: 5%;
-  margin-left: -45px;
+  margin-left: -43px;
   margin-top: 144px;
   text-align: center;
 }
 
 .search ul li {
   list-style-type: none;
+  height: 40px;
   border-bottom: 1px solid rgb(249,214,193);
   cursor: pointer;
   clear: both;
@@ -29,7 +30,5 @@
   color: white;
   margin: 0;
   margin-left: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
   background: rgba(122,201,191,.7);
 }
