@@ -22,7 +22,7 @@
   <input type="text" ng-model="searchartist" ng-change="searchArtist()" placeholder="Search for a track">
   <ul>
     <li ng-repeat="track in tracks">
-    	<span ng-click="addSong(track.uri)"><b>{{track.name}}</b> <em>{{track.album.name}}</em></span>
+    	<b>{{track.name}}</b> <em>{{track.album.name}}</em>
     	<div ng-repeat="artist in track.artists">&nbsp;{{artist.name}}&nbsp;</div>
     </li>
   </ul>
@@ -38,7 +38,9 @@
 <script>
 	var main = function() {
 		$("li").click(function() {
+			$("input[type=text]").val("Hey????");
 			$("input").val("Hey????");
+			$(this).fadeOut(500);
 		});
 		
 		$("li").hover(function() {
