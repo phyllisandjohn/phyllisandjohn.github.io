@@ -6,11 +6,8 @@ layout: request
   <input type="text" ng-model="searchartist" ng-change="searchArtist()" placeholder="Search for an artist">
   <ul>
     <li ng-repeat="artist in artists">
-      <a class="media" ng-href="{{artist.external_urls.spotify}}" target="_blank">
-        <img ng-src="{{artist.images[0].url}}" alt="">
-        <div class="media-details">
+      <a class="media" ng-href="{{artist.external_urls.spotify}}">
           {{artist.name}}
-        </div>
       </a>
     </li>
   </ul>
