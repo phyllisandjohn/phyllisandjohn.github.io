@@ -11,14 +11,13 @@
   width: 90%;
   position: absolute;
   left: 5%;
+  margin-left: -20px;
   margin-top: 142px;
   text-align: center;
 }
 
 .search ul li {
   list-style-type: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
   background: rgba(122,201,191,.7);
   border-bottom: 1px solid rgb(249,214,193);
   cursor: pointer;
@@ -28,4 +27,7 @@
 .search ul li p {
   float: left;
   color: white;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
