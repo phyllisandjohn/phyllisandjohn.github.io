@@ -25,7 +25,7 @@
   </form>
   <ul>
     <li ng-repeat="track in tracks">
-    	<span ng-mouseover="hoverTrack(track.name)"><b>{{track.name}}</b> <em>{{track.album.name}}</em></span>
+    	<span ng-mouseover="hoverTrack(track.name)" ng-click="searchArtist()"><b>{{track.name}}</b> <em>{{track.album.name}}</em></span>
     	<div ng-repeat="artist in track.artists">&nbsp;{{artist.name}}&nbsp;</div>
     </li>
   </ul>
