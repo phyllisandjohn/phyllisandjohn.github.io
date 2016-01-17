@@ -32,10 +32,14 @@
 .supporting .details {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
   position: absolute;
   text-align: center;
-  margin-top: 90px;
   background: rgba(255,255,255,.2);
+}
+
+.supporting .details p {
+  margin-top: 80px;
 }
 
 .groom .supporting-1, .groom .supporting-3 {
