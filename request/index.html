@@ -26,7 +26,7 @@
   <ul>
     <li ng-repeat="track in tracks">
     	<p><b>{{track.name}}</b></p>
-    	<div ng-repeat="artist in track.artists"><p>{{artist.name}}</p></div>
+    	<p ng-repeat="artist in track.artists">{{artist.name}}</p>
 	<p>— <em>{{track.album.name}}</em></p>
     </li>
   </ul>
