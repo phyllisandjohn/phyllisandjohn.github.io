@@ -15,7 +15,6 @@
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background: rgba(255,255,255,.2);
 }
 
 .supporting ul li {
@@ -41,6 +40,8 @@
 }
 
 .together .details {
+  margin: 50px;
+  margin-top: 100px;
   width: 400px;
   height: 400px;
   border-radius: 50%;
