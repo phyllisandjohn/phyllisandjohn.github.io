@@ -30,8 +30,6 @@
 .supporting .details {
   position: absolute;
   text-align: center;
-  color: white;
-  display: none;
   background: rgba(255,255,255,.2);
 }
 
