@@ -1,0 +1,31 @@
+.search input[type="text"] {
+  width: 90%;
+  height: 40px;
+  position: absolute;
+  left: 5%;
+  margin-top: 100px;
+  border: 1px solid rgb(249,214,193);
+}
+
+.search ul {
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  margin-left: -39px;
+  margin-top: 144px;
+  text-align: left;
+}
+
+.search ul li {
+  list-style-type: none;
+  border-bottom: 1px solid rgb(249,214,193);
+  cursor: pointer;
+  clear: both;
+  background: rgba(122,201,191,.7);
+  color: white;
+  padding: 20px 15px 20px 15px;
+}
+
+.search ul li div {
+  float: right 
+}
