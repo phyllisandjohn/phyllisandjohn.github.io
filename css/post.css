@@ -3,7 +3,7 @@
   	margin: 0 auto;
   	position: absolute;
   	z-index: 0;
-	margin-top: 265px;
+	margin-top: 225px;
 	margin-left: 2.5%;
   
 }
@@ -11,7 +11,7 @@
 .hide-top {
   	width: 100%;
   	height: 250px;
-  	margin-top: 90px;
+  	margin-top: 50px;
   	position: absolute;
   	z-index: 1;
   	background: rgb(235,246,245);
