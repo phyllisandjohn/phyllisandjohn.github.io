@@ -1,10 +1,35 @@
----
-layout: default
----
-<div class="post">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href='https://fonts.googleapis.com/css?family=Hind|Dancing+Script' rel='stylesheet' type='text/css'>
+<link href='/css/style.css' rel='stylesheet' type='text/css'>
+<link href='/css/post.css' rel='stylesheet' type='text/css'>
 
+</head>
+<body>
+</div>
+	<div class="header">
+		<div class="nav">
+			<ul class="nav-1">
+				<li><a href="https://phyllisandjohn.com/details">DETAILS</a></li>
+				<li><a href="https://phyllisandjohn.com/crew">CREW</a></li>
+				<li><a href="https://phyllisandjohn.com/photos">PHOTOS</a></li>
+			</ul>
+			<h1><a href="https://phyllisandjohn.com">P&J</a></h1>
+			<ul class="nav-2">
+				{% for post in site.posts %}
+	    			<li><a href="{{ post.url }}">POST A MEMORY</a></li>
+	  			{% endfor %}
+				<li><a href="https://phyllisandjohn.com/request">REQUEST A SONG</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	{{ content }}
+</div>
+</body>
+</html>
 <div id="disqus_thread"></div>
 <script>
 (function() { // DON'T EDIT BELOW THIS LINE
