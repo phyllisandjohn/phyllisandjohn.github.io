@@ -15,7 +15,9 @@ angular
     
     $scope.hoverTrack = function (track) {  
       angular.element(document).find("input").val(track);
-      console.log(track);
+      Spotify.search($scope.searchartist, 'track').then(function (data) {
+      $scope.tracks = data.tracks.items; 
+      });
     };    
     
   }]);
