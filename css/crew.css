@@ -29,15 +29,15 @@
 
 .supporting .details {
   display: none;
-}
-
-.supporting .details:hover {
-  display: inherit;
   position: absolute;
   text-align: center;
   color: white;
   display: none;
   background: rgba(255,255,255,.2);
+}
+
+.supporting ul li img + .supporting .details {
+  display: block;
 }
 
 
