@@ -13,19 +13,13 @@ html, body {
 
 /*Header*/
 .header h1 {
-	text-align: center;
-	position: absolute;
-	left: 50%;	
-	margin-left: -60px;
-	margin-top: -15px;
+	float: left;
 	font-size: 28px;
-	line-height: 80px;
-	width: 80px;
-	height: 80px;
-	background: rgb(252,252,252);
-	border: 3px solid rgb(122,201,191);;
 	border-radius: 50%;
-	font-family: 'Yeseva One';
+	background: white;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 40px;
 }
 
 .header h1 a {
@@ -33,28 +27,16 @@ html, body {
 	color: rgb(122,201,191);
 }
 
-.header {
-	width: 100%;
-	background: white;
-	
-}
-
 .header .nav {
 	position: fixed;
-	z-index: 50;
-	left: 50%;
-	top: 25px;
-	margin-left: -400px;
-	border-bottom: 3px solid rgb(122,201,191);;
-	height: 50px;
-	width: 800px;
+	width: 100%;
+	background: rgba(122,201,191,.7);
 }
 
 .header ul {
-	float: left;
-	width: 375px;
+	float: right;
 	padding: 5px;
-	margin: 8px 0px 0px 0px;	
+	margin: 22.5px 0px 0px 0px;	
 }
 
 .header ul li {
@@ -64,21 +46,11 @@ html, body {
 }
 
 .header ul li a {
-	color: rgb(122,201,191);
+	color: white;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 }
-
-.header .nav-1 {
-	margin-right: 120px;
-}
-
-.header .nav-2 {
-
-	margin-right: -90px;
-}
-
 /*RSVP*/
 .rsvp {
 	position: fixed;
