@@ -84,6 +84,14 @@ var main = function() {
   		.mouseleave(function() {
 		 $(this).find(".hide").fadeOut(500);
   	});
+  	
+  	$( ".together" )
+  		.mouseenter(function() {
+		$(this).find(".hide").fadeIn(500);
+  	})
+  		.mouseleave(function() {
+		 $(this).find(".hide").fadeOut(500);
+  	});
 }
 $(document).ready(main);
 
