@@ -2,36 +2,71 @@
 <html>
 <head>
 <title>Home</title>
-<link href='https://fonts.googleapis.com/css?family=Hind|Dancing+Script' rel='stylesheet' type='text/css'>
-<link href='style.css' rel='stylesheet' type='text/css'>
-
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
-<script src="app.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Hind|Alegreya+Sans:300|Yeseva+One' rel='stylesheet' type='text/css'>
+<link href='/css/style.css' rel='stylesheet' type='text/css'>
+<link href='/css/post.css' rel='stylesheet' type='text/css'>
 
 </head>
-<body ng-app="rsvp" ng-controller="MainCtrl">
-	</div>
-
-
+<body>
 	<div class="header">
-		
 		<div class="nav">
-			<ul class="nav-1">
-				<li><a href="details.html">DETAILS</a></li>
-				<li><a href="crew.html">CREW</a></li>
-				<li><a href="photos.html">PHOTOS</a></li>
-			</ul>
-			<h1><a href="index.html">P&J</a></h1>
-			<ul class="nav-2">
-				<li><a href="post.html">POST A MEMORY</a></li>
-				<li><a href="request.html">REQUEST A SONG</a></li>
+			<h1><a href="http://phyllisandjohn.com/">P&J</a></h1>
+			<ul>
+				<li><a href="http://phyllisandjohn.com/details">DETAILS</a></li>
+				<li><a href="http://phyllisandjohn.com/crew">CREW</a></li>
+				<li><a href="http://phyllisandjohn.com/photos">PHOTOS</a></li>
+				{% for post in site.posts %}
+	    			<li><a href="{{ post.url }}">POST A MEMORY</a></li>
+	  			{% endfor %}
+				<li><a href="http://phyllisandjohn.com/request">REQUEST A SONG</a></li>
 			</ul>
 		</div>
 	</div>
-	<div class="main">	
 
-	</div>
+<div class="hide-top">
+	<div class="container">
+				<div class="crab-left">
+					<div class="body">
+						<div class="smile"></div>
+					</div>
+					<div class="eye">
+					<div class="eye-line-left"></div>
+					<div class="eye-line-right"></div>
+					<div class="eye-left">
+						<div class="eye-white blinking">
+							<div class="eye-ball"></div>
+						</div>	
+					</div>	
+					<div class="eye-right">
+						<div class="eye-white blinking">
+							<div class="eye-ball"></div>
+						</div>	
+					</div>
+					</div>
+					<div class="arm-left"></div>
+					<div class="arm-right"></div>
+					<div class="claw-left">
+						<div class="claw-top"></div>
+						<div class="claw-bottom"></div>
+					</div>
+					<div class="claw-right">
+						<div class="claw-top clawing"></div>
+						<div class="claw-bottom"></div>
+					</div>
+					<div class="leg-1"></div>
+					<div class="leg-2"></div>
+					<div class="leg-3"></div>
+					<div class="leg-4"></div>
+				</div>
+				<div class="instructions">
+<p>Post some of your favorite memories with Phyllis and John! We will probably share these at the reception, so give us some good stuff.<br><br>
+
+P.S. You don't have to sign up to post something! Write your memory, choose "OR SIGN UP WITH DISQUS" and then check "I'd rather post as a guest."
+</p>
+				<div class="arrow-down"></div>
+				</div>
+			</div>
+		</div>
 
 </body>
 </html>
-
