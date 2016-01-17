@@ -22,7 +22,7 @@
   width: 200px;
   height: 200px;
 }
-
+/*
 .supporting ul li img {
   width: 200px;
   height: 200px;
@@ -39,11 +39,12 @@
   background: rgba(122,201,191,.5);
   color: white;
 }
+
 .supporting ul li img:hover + .supporting .details {
   display: block;
 }
 
-
+*/
 .supporting .details h1 {
   margin: 0;
   margin-top: 70px;
