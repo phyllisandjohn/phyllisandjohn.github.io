@@ -27,10 +27,11 @@ html, body {
 	color: rgb(122,201,191);
 }
 
-.header .nav {
+.header {
 	position: fixed;
 	width: 100%;
 	background: rgba(122,201,191,.7);
+	z-index: 50;
 }
 
 .header ul {
