@@ -35,7 +35,7 @@
   border-radius: 50%;
   position: absolute;
   text-align: center;
-  background: rgba(255,255,255,.2);
+  background: rgba(255,255,255,.35);
   color: white;
 }
 
@@ -51,7 +51,7 @@
   border-radius: 50%;
   position: absolute;
   text-align: center;
-  background: rgba(255,255,255,.2);
+  background: rgba(255,255,255,.35);
   color: white;
 }
 
