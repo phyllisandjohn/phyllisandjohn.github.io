@@ -3,8 +3,7 @@
   	margin: 0 auto;
   	position: absolute;
   	z-index: 0;
-  	top: 50%;
-	margin-top: -75px;
+	margin-top: 225px;
 	margin-left: 2.5%;
   
 }
@@ -14,8 +13,7 @@
   	height: 250px;
   	position: absolute;
   	z-index: 1;
-  	top: 50%;
-  	margin-top: -245px;
+  	margin-top: 5px;
   	background: white;
 }
 
