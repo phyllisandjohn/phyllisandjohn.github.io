@@ -23,19 +23,19 @@
 	<div class="supporting groom">
 		<ul>
 			<li class="supporting-1">
-				<div id="details">
+				<div class="details hide">
 					<h1>Kris</h1><h3>Groomsman</h3>
 			     	</div>
 				<img src="/assets/kris.jpg">
 			</li>
 			<li class="supporting-2">
-				<div id="details">
+				<div class="details hide">
 					<h1>Devon</h1><h3>Best Man</h3>
 			     	</div>
 				<img src="/assets/devon.jpg">
 			</li>
 			<li class="supporting-3">
-				<div id="details">
+				<div class="details hide">
 					<h1>Kurt</h1><h3>Groomsman</h3>
 			     	</div>
 				<img src="/assets/kurt.jpg">
@@ -44,7 +44,7 @@
 		</ul>
 	</div>
 	<div class="together">
-		<div class="details">
+		<div class="details hide">
 			<h1>Phyllis & John</h1>
 		</div>
 		<img  src="/assets/together.jpg">
@@ -53,19 +53,19 @@
 	<div class="supporting bride">
 		<ul>
 			<li class="supporting-1">
-				<div id="details">
+				<div class="details hide">
 					<h1>Erinn</h1><h3>Bridesmaid</h3>
 			     	</div>
 				<img src="/assets/erin.jpg">
 			</li>
 			<li class="supporting-2">
-				<div id="details">
+				<div class="details hide">
 					<h1>Kirsten</h1><h3>Maid of Honor</h3>
 			     	</div>
 				<img src="/assets/kirsten.jpg">
 			</li>
 			<li class="supporting-3">
-				<div id="details">
+				<div class="details hide">
 					<h1>Sue</h1><h3>Bridesmaid</h3>
 			     	</div>				
 				<img src="/assets/sue.jpg">
@@ -73,6 +73,14 @@
 		</ul>
 	</div>
 </div>
+<script>
+	$(function() {
+		$('img').hover(function() { 
+    			$('.hide').toggle(); 
+		});
+	});
+</script>
+
 </body>
 </html>
 
