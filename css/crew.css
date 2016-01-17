@@ -79,4 +79,15 @@
   margin-left: -40px; 
 }
 
+.supporting, .together, .ribbon {
+	display: none;
+}
+
+.ribbon {
+	position: absolute;
+	left: 50%;
+	margin-left: -180px;
+	top: 100px;
+}
+
 
