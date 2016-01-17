@@ -9,12 +9,13 @@
 }
 
 input[type="submit"] {
-  float: left
+  float: left;
   height: 40px;
   width: 10%;
   margin-top: 100px;
   background: rgb(249,214,193);
   border: none;
+  color" white;
 }
 
 .search ul {
