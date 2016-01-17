@@ -22,13 +22,13 @@
   width: 200px;
   height: 200px;
 }
-/*
+
 .supporting ul li img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
-
+/*
 .supporting .details {
   display: none;
   width: 200px;
@@ -43,8 +43,8 @@
 .supporting ul li img:hover + .supporting .details {
   display: block;
 }
-
 */
+
 .supporting .details h1 {
   margin: 0;
   margin-top: 70px;
