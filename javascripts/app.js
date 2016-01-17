@@ -13,7 +13,7 @@ angular
       });
     };
     
-    $scope.hover = function (track) {  
+    $scope.hoverTrack = function (track) {  
       angular.element(document).find("input").val(track);
     };    
   }]);
