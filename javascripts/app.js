@@ -14,7 +14,7 @@ angular
     };
     
     $scope.hoverTrack = function (track) {
-      document.getElementsByClassName("search-box").val(track);
+      angular.element(document.getElementsByClassName("search-box")).val(track);
       console.log(track)
     };    
     
