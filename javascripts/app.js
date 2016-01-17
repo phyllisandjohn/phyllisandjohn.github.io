@@ -11,6 +11,11 @@ angular
       Spotify.search($scope.searchartist, 'track').then(function (data) {
         $scope.tracks = data.tracks.items; 
       });
+    };
+    
+    $scope.addSong = function (track) {  
+      Spotify.addPlaylistTracks('1249169823', '5xGlCjEssIbP9yVPd62uy2', track);  
+    };    
   }]);
 
  
