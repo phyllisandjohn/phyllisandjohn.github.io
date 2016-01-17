@@ -22,12 +22,13 @@
   <form method="POST" action="http://formspree.io/phyllisandjohn.guestlist@gmail.com">
   	<input name="email" type="hidden" value="kirstenrauffer@gmail.com">
   	<input name="name" type="hidden" value="guest">
+  	<input name="album" class="album" type="hidden" value="">
   	<input name="message" class="search-box" type="text" ng-model="searchartist" ng-change="searchArtist()" placeholder="Search for a track">
   	<input type="submit" value="REQUEST">
   </form>
   <ul>
     <li ng-repeat="track in tracks">
-    	<span ng-mouseover="hoverTrack(track.name)" ng-click="searchTrack()"><b>{{track.name}}</b> <em>{{track.album.name}}</em></span>
+    	<span ng-mouseover="hoverTrack(track.name,track.album.name)" ng-click="searchTrack()"><b>{{track.name}}</b> <em>{{track.album.name}}</em></span>
     	<div ng-repeat="artist in track.artists">&nbsp;{{artist.name}}&nbsp;</div>
     </li>
   </ul>
