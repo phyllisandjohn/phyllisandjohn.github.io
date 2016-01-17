@@ -36,7 +36,7 @@
 	height: 0; 
 	border-left: 10px solid transparent;
 	border-right: 15px solid transparent;
-	border-top: 20px solid blue;
+	border-top: 20px solid rgb(254,249,246);;
 	transform: rotate(25deg);
 	margin-left: 30px;
 	margin-top: 5px;
