@@ -25,9 +25,9 @@
   <input type="text" ng-model="searchartist" ng-change="searchArtist()" placeholder="Search for a track">
   <ul>
     <li ng-repeat="track in tracks">
-    	<p><b>{{track.name}}</b></p>
-    	<p ng-repeat="artist in track.artists">{{artist.name}}</p>
-	<p>— <em>{{track.album.name}}</em></p>
+    	<b>{{track.name}}</b>
+    	<div ng-repeat="artist in track.artists">{{artist.name}} </div>
+	— <em>{{track.album.name}}</em>
     </li>
   </ul>
 </div>
