@@ -36,11 +36,6 @@
   background: rgba(255,255,255,.2);
 }
 
-.supporting ul li img + .supporting .details {
-  display: block;
-}
-
-
 .groom .supporting-1, .groom .supporting-3 {
   margin-left: 40px; 
 }
