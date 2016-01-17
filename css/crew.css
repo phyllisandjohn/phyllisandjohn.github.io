@@ -19,12 +19,13 @@
 
 .supporting ul li {
   list-style-type: none;
-}
-
-.supporting ul li img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.supporting ul li img {
+
 }
 
 .supporting .details {
