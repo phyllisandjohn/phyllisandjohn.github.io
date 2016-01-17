@@ -9,7 +9,7 @@ angular
 
     $scope.searchArtist = function () {
       Spotify.search($scope.searchartist, 'track').then(function (data) {
-        $scope.tracks = data.track.items; 
+        $scope.tracks = data.tracks.items; 
       });
     };
   }]);
