@@ -9,11 +9,5 @@ spotifyApi.getArtistAlbums('43ZHCT0cAZBISjO8DG9PnE')
     console.error(err);
   });
   
-  spotifyApi.getUserPlaylist('1249169823','5xGlCjEssIbP9yVPd62uy2')
-  .then(function(data) {
-    console.log('User playlist', data);
-  }, function(err) {
-    console.error(err);
-  });
-  
+
  
