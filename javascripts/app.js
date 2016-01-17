@@ -16,7 +16,6 @@ angular
     $scope.hoverTrack = function (track) {  
       angular.element(document).find(".search-box").val(track);
       console.log(track)
-      });
     };    
     
   }]);
