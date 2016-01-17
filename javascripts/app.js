@@ -8,7 +8,7 @@ angular
   .controller('MainController', ['$scope', 'Spotify', function ($scope, Spotify) {
 
     $scope.searchArtist = function () {
-      Spotify.search($scope.searchartist, 'artist, track').then(function (data) {
+      Spotify.search($scope.searchartist, 'artist,track').then(function (data) {
         $scope.artists = data.artists.items;
       });
     };
