@@ -76,11 +76,24 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script>
-	$(function() {
-		$('img').hover(function() { 
-    			$('.hide').toggle(); 
-		});
-	});
+var main = function() {
+	$('img').mouseenter(function() {
+		 
+	}
+	$('img').mouseenter(function() {
+		$('.hide').fadeIn(500)); 
+	}
+	
+	$( "img" )
+  		.mouseenter(function() {
+		$('.hide').fadeIn(500));
+  	})
+  		.mouseleave(function() {
+		 $('.hide').fadeOut(500));
+  	});
+}
+$(document).read(main);
+
 </script>
 
 </body>
