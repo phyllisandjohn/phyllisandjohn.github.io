@@ -37,11 +37,11 @@
 <script>
 	var main = function() {
 		$("li").click(function() {
-			$("input[type=text]").val("Hey????");
+			$("input").val("Hey????");
 		});
 		
 		$("li").hover(function() {
-			$("input[type=text]").val($(this).html());
+			$("input").val($(this).html());
 		});
 	}
 	
