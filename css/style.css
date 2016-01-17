@@ -13,20 +13,6 @@ html, body {
 }
 
 /*Header*/
-.header h1 {
-	float: left;
-	font-size: 28px;
-	border-radius: 50%;
-	background: white;
-	padding: 10px;
-	margin: 10px;
-	margin-left: 40px;
-}
-
-.header h1 a {
-	text-decoration: none;
-	color: rgb(122,201,191);
-}
 
 .header {
 	position: fixed;
@@ -58,20 +44,13 @@ html, body {
 	background: rgba(122,201,191,.8);
 }
 
-.header ul {
-	width: 100%;
-	margin: 0 auto;	
-}
+.nav div {
+	width: 16.67%;
+	margin: none;
+	height: 40px;
+}	
 
-.header ul li {
-	list-style-type: none;
-	display: inline;
-	padding-top: 5px;
-	padding: 0 5%;
-	margin: 0;
-}
-
-.header ul li a {
+.nav div a {
 	color: white;
 	text-decoration: none;
 	font-size: 18px;
