@@ -60,14 +60,15 @@ html, body {
 
 .header ul {
 	width: 100%;
-	padding: 5px;
 	margin: 0 auto;	
 }
 
 .header ul li {
 	list-style-type: none;
 	display: inline;
+	padding-top: 5px;
 	padding: 0 5%;
+	margin: 0;
 }
 
 .header ul li a {
