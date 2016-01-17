@@ -37,8 +37,7 @@
 <script>
 	var main = function() {
 		$("li").click(function() {
-			var htmlString = $(this).html();
-  			$('.added-song').text( htmlString );
+			$("input[type=text]").text($(this).html());
 		});
 		
 		$("li").hover(function() {
