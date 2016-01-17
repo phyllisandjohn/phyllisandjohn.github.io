@@ -1,8 +1,17 @@
+.container {
+  position: absolute;
+  left: 50%;
+  margin-left: -450px;
+  margin-top: 80px;
+}
+
 .together, .supporting {
   float: left;
 }
 
 .together {
+  margin: 50px;
+  margin-top: 100px;
   width: 400px;
   height: 400px;
   border-radius: 50%;
