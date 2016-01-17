@@ -27,10 +27,18 @@
   border-radius: 50%;
 }
 
-.supporting ul li div:before {
+.supporting .details {
   display: none;
 }
 
+.supporting .details:hover {
+  display: inherit;
+  position: absolute;
+  text-align: center;
+  color: white;
+  display: none;
+  background: rgba(255,255,255,.2);
+}
 
 
 .groom .supporting-1, .groom .supporting-3 {
