@@ -1,11 +1,18 @@
 .search input[type="text"] {
-  width: 90%;
+  width: 80%;
   height: 40px;
-  position: absolute;
-  left: 5%;
+  float: left;
+  margin-left: 5%;
   margin-top: 100px;
   border: 1px solid rgb(249,214,193);
   background: #fff;
+}
+
+input[type="submit"] {
+  float: left
+  height: 40px;
+  width: 10%;
+  background: rgb(249,214,193);
 }
 
 .search ul {
@@ -34,3 +41,5 @@
 .search ul li div {
   float: right 
 }
+
+
