@@ -44,7 +44,7 @@ html, body {
 .header ul li {
 	list-style-type: none;
 	display: inline;
-	width: 15%;
+	width: 100%;
 }
 
 .header ul li a {
