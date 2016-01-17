@@ -31,8 +31,31 @@ html, body {
 .header {
 	position: fixed;
 	width: 100%;
-	background: rgba(122,201,191,.7);
 	z-index: 50;
+}
+
+.home {
+	background: rgba(122,201,191,.3);
+}
+
+.details {
+	background: rgba(122,201,191,.4);
+}
+
+.crew {
+	background: rgba(122,201,191,.5);
+}
+
+.photos {
+	background: rgba(122,201,191,.6);
+}
+
+.post {
+	background: rgba(122,201,191,.7);
+}
+
+.request {
+	background: rgba(122,201,191,.8);
 }
 
 .header ul {
