@@ -3,14 +3,14 @@
   height: 40px;
   position: absolute;
   margin-left: 5%;
-  margin-top: 60px;
+  margin-top: 58px;
   background: rgba(122,201,191,.7);
   border: 1px solid rgba(122,201,191,.7);
-  margin-bottom:2px;
   color: #fff;
 }
 
 .recieved p {
+  margin-top: -5px;
   margin-left: 20px;
 }
 
