@@ -31,14 +31,7 @@
   display: none;
 }
 
-.supporting ul li div:hover {
-  display: inherit;
-  position: absolute;
-  text-align: center;
-  color: white;
-  display: none;
-  background: rgba(255,255,255,.2);
-}
+
 
 .groom .supporting-1, .groom .supporting-3 {
   margin-left: 40px; 
