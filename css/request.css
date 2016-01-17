@@ -12,7 +12,9 @@ input[type="submit"] {
   float: left
   height: 40px;
   width: 10%;
+  margin-top: 100px;
   background: rgb(249,214,193);
+  border: none;
 }
 
 .search ul {
