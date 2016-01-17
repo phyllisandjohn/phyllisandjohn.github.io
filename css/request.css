@@ -23,9 +23,7 @@
   clear: both;
   background: rgba(122,201,191,.7);
   color: white;
-  padding-left: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 20px 15px 20px 15px;
 }
 
 .search ul li div {
