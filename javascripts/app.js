@@ -13,8 +13,8 @@ angular
       });
     };
     
-    $scope.hoverTrack = function (track,album) {  
-      angular.element(document).find("input[type=text]").val(track + "," + album);
+    $scope.hoverTrack = function (track) {  
+      angular.element(document).find("input[type=text]").val(track);
       Spotify.search($scope.searchartist, 'track').then(function (data) {
       $scope.tracks = data.tracks.items; 
       });
