@@ -35,6 +35,7 @@ html, body {
 
 .header .nav {
 	position: fixed;
+	z-index: 50;
 	left: 50%;
 	top: 25px;
 	margin-left: -400px;
