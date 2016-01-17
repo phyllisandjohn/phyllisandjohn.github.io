@@ -48,6 +48,7 @@ html, body {
 	width: 16.67%;
 	margin: none;
 	height: 40px;
+	float: left
 }	
 
 .nav div a {
