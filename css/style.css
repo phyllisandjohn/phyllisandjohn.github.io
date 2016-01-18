@@ -18,6 +18,9 @@ html, body {
 	position: fixed;
 	width: 100%;
 	z-index: 50;
+	-webkit-box-shadow: 0 2px 4px 0px #E2E2E2;
+       -moz-box-shadow: 0 2px 4px 0px #E2E2E2;
+        box-shadow: 0 2px 4px 0px #E2E2E2;
 }
 
 .home {
