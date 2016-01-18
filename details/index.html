@@ -351,10 +351,10 @@ a {
 var main = function() {
 	$( ".highlighted" )
   		.mouseenter(function() {
-		$(this).find(".blurb").fadeIn(500);
+		$(".blurb").fadeIn(500);
   	})
   		.mouseleave(function() {
-		 $(this).find(".blurb").fadeOut(500);
+		 $(".blurb").fadeOut(500);
   	});
 }
 $(document).ready(main);
