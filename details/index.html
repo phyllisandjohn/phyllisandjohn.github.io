@@ -356,6 +356,10 @@ var main = function() {
   		.mouseleave(function() {
 		 $(".blurb").fadeOut(500);
   	});
+  	
+  	$( ".highlighted" ).onClick(function() {
+		$(".blurb").fadeIn(500);
+  	});
 }
 $(document).ready(main);
 </script>
