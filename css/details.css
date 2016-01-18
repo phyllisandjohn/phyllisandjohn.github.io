@@ -11,13 +11,13 @@
 	-ms-transform: rotate(-5deg);
 	-o-transform: rotate(-5deg);
 	transform: rotate(-5deg);
-	margin-left: -450px;
+	margin-left: -400px;
 	margin-top: 500px;
 }
 .calendar {
 	position: absolute;
 	left: 50%;
-	margin-left: 0px;
+	margin-left: 50px;
 	margin-top: 150px;
 	width: 375px;
 	height: 300px;
@@ -45,7 +45,7 @@ td {
 .subscribe {
 	position: absolute;
 	left: 50%;
-	margin-left: 0px;
+	margin-left: 50px;
 	margin-top: 475px;
 	width: 375px;
 	height: 40px;
@@ -89,7 +89,7 @@ td {
 	padding-top: 15px;
 	position: absolute;
 	left: 50%;
-	margin-left: 182.5px;
+	margin-left: 232.5px;
 	margin-top: 50px;
 	text-align: center;
 	background: #FCEBE0;
