@@ -40,6 +40,16 @@
   color: white;
 }
 
+.details h1 {
+  font-family: "American Typewriter";
+  font-weight: normal;
+}
+
+.details h3 {
+  font-family: "Avenir";
+  font-weight: normal;
+}
+
 .hide {
   display: none;
 }
