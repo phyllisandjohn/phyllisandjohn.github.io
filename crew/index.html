@@ -10,7 +10,6 @@ body {
   font-family: "Avenir";
   color: #4A4A4A;
 }
-
 .left-panel {
   margin: -20px 0px 0px -10px;
   position: absolute;
@@ -19,23 +18,19 @@ body {
   background: white;
   text-align: center;
 }
-
 .navigation {
   margin-top: 150px;
 }
-
 .navigation h1 {
   font-family: "American Typewriter";
   font-size: 32px;
   font-weight: normal;
   margin: -10px;
 }
-
 .navigation p {
   text-transform: uppercase;
   font-size: 14px;
 }
-
 .navigation ul {
   list-style-type: none;
   text-transform: uppercase;
@@ -44,33 +39,27 @@ body {
   padding-left: 0;
   margin-top: 50px;
 }
-
 .navigation a {
   text-decoration: none;
   color: #4A4A4A;
 }
-
 .navigation li {
   width: 335px;
   padding: 15px 0px 15px 0px;
 }
-
 .active {
   background: #F5F5F5;
 }
-
 .divider {
   margin: 0 auto;
   width: 145px;
   height: 4px;
   background: #9B9B9B;
 }
-
 .main {
   position: absolute;
   margin-left: 335px;
 }
-
 /*RSVP*/
 .rsvp {
 	position: fixed;
@@ -85,21 +74,83 @@ body {
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,.25);
 	padding: 15px 0px 0px 40px;
 }
-
 .rsvp h1{
 	font-family: 'American Typewriter';
 	font-weight: normal;
 	font-size: 26px;
 	margin: 15px 20px 0px 0px;
 }
-
+.rsvp p{
+	margin: 5px 20px 0px 0px;
+}
+.rsvp .form{
+	font-size: 12px;
+}
+.focus:focus {
+	outline: none;
+}
+fieldset {
+	text-align: left;
+	border: none; 
+	margin-top: 30px;
+	margin-left: -9px;
+	text-transform: uppercase;
+}
+input  {
+	border: none;
+	border-bottom: 1px solid #AEE7DA;
+	margin-left: 10px;
+}
+input[type='radio'] {
+	-webkit-appearance:none;
+	width:15px;
+	height:15px;
+	outline:none;
+	cursor: pointer;	
+	margin-top: 10px;
+}
+input[type='radio']:before {
+	border: 1px solid #AEE7DA;
+	background: #FCFCFC;
+	content:'';
+	display:block;
+	width:15px;
+	height:15px;
+	border-radius:50%; 
+	margin-top: 5px;   
+	   
+}
+input[type='radio']:checked:before {
+	background:#BFE4E2;
+}
+textarea {
+ 	border: none;
+	border-bottom: 1px solid #AEE7DA;
+	background: transparent;
+	width: 280px;
+	margin-left: 10px;
+	height:12px;
+	resize: none;
+	margin-top: 15px;
+}
+.rsvp input[type="submit"]  {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.rsvp .send {
+	font-family: 'American Typewriter';
+	font-size: 16px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 10px;
+}
 /*Crab*/
 .crabs {
   position: absolute; 
   top: 60px;
   left: 70px;
 }
-
 .crab-right {
   position: absolute;
   left: 200px;
@@ -110,7 +161,6 @@ body {
   filter: FlipH;
   -ms-filter: "FlipH";
 }
-
 .body {
 	position: absolute;
 	top: 15px;
@@ -122,7 +172,6 @@ body {
 	border-radius: 50%;
 	background: rgb(255,145,106);
 }
-
 .eye-line-right {
 	position: absolute;
 	left: 27px;
@@ -136,7 +185,6 @@ body {
 	-o-transform: rotate(15deg);
 	transform: rotate(15deg);
 }
-
 .eye-line-left {
 	position: absolute;
 	left: 13px;
@@ -150,7 +198,6 @@ body {
 	-o-transform: rotate(-15deg);
 	transform: rotate(-15deg);
 }
-
 .eye-left {
 	position: absolute;
 	left: 7px;
@@ -160,7 +207,6 @@ body {
 	border-radius: 50%;
 	background: rgb(255,145,106);
 }
-
 .eye-right {
 	position: absolute;
 	left: 25px;
@@ -170,7 +216,6 @@ body {
 	border-radius: 50%;
 	background: rgb(255,145,106);
 }
-
 .eye-white{
 	position: absolute;
 	top: 1px;
@@ -180,7 +225,6 @@ body {
 	border-radius: 50%;
 	background: #FFF;
 }
-
 .eye-ball{
 	position: absolute;
 	top: 1px;
@@ -190,12 +234,10 @@ body {
 	border-radius: 50%;
 	background: #3C2415;
 }
-
 .eye {
 	position: absolute;
 	left: 2px;
 }
-
 .leg-1 {
 	position: absolute;
 	top: 35px;
@@ -207,7 +249,6 @@ body {
 	border-right: 0px;
 	border-radius: 10px 10px 0 0;	
 }
-
 .leg-2 {
 	position: absolute;
 	top: 35px;
@@ -219,7 +260,6 @@ body {
 	border-right: 0px;
 	border-radius: 10px 10px 0 0;	
 }
-
 .leg-3 {
 	position: absolute;
 	top: 35px;
@@ -231,7 +271,6 @@ body {
 	border-left: 0px;
 	border-radius: 10px 10px 0 0;	
 }
-
 .leg-4 {
 	position: absolute;
 	top: 35px;
@@ -243,7 +282,6 @@ body {
 	border-left: 0px;
 	border-radius: 10px 10px 0 0;	
 }
-
 .arm-left {
 	position: absolute;
 	top: 24px;
@@ -257,7 +295,6 @@ body {
 	border-radius: 25px 25px 0 0;
 	clip: rect(auto auto 6px auto);	
 }
-
 .arm-right {
 	position: absolute;
 	top: 6px;
@@ -270,7 +307,6 @@ body {
 	border-radius:0 0 25px 25px;
 	clip: rect(8px auto auto auto);	
 }
-
 .claw-left {
 	position: absolute;
 	left: -27px;
@@ -281,7 +317,6 @@ body {
 	-o-transform: rotate(-15deg);
 	transform: rotate(-15deg);
 }
-
 .claw-right {
 	position: absolute;
 	right: -50px;
@@ -292,7 +327,6 @@ body {
 	-o-transform: rotate(-30deg);
 	transform: rotate(-30deg);
 }
-
 .claw-top {
 	top: 1px;
 	position: absolute;
@@ -304,23 +338,18 @@ body {
 	background: rgb(255,145,106);
 	clip: rect(auto auto 7px auto);
 }
-
 .crab-right .claw-right .claw-top {
 	animation: clawing-top 4s 2.5s infinite;
 }
-
 .crab-right .claw-right .claw-bottom {
 	animation: clawing-bottom 4s 2.5s infinite;
 }
-
 .crab-left .claw-right .claw-top {
 	animation: clawing-top 4s 1s infinite;
 }
-
 .crab-left .claw-right .claw-bottom {
 	animation: clawing-bottom 4s 1s infinite;
 }
-
 .claw-bottom {
 	position: absolute;
 	top: 5px;
@@ -332,7 +361,6 @@ body {
 	background: rgb(255,145,106);
 	clip: rect(3px auto auto auto);
 }
-
 .claw-left .claw-top {
 	-webkit-transform: rotate(15deg);
 	-moz-transform: rotate(15deg);
@@ -340,7 +368,6 @@ body {
 	-o-transform: rotate(15deg);
 	transform: rotate(15deg);
 }
-
 .claw-left .claw-bottom {
 	-webkit-transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
@@ -348,7 +375,6 @@ body {
 	-o-transform: rotate(-15deg);
 	transform: rotate(-15deg);
 }
-
 .smile {
 	position: absolute;
 	left: 10px;
@@ -361,17 +387,14 @@ body {
 	border-radius: 0 0 50% 50%;
 	clip: rect(15px auto auto auto);
 }
-
 .crab-left .blinking {
 	clip: rect(0px, 42px, 42px, 0px);
 	animation: blinking 8s 1s infinite;
 }
-
 .crab-right .blinking {
 	clip: rect(0px, 42px, 42px, 0px);
 	animation: blinking 8s 2s infinite;
 }
-
 @-moz-keyframes blinking {
   0% {
     clip: rect(0px, 42px, 42px, 0px);
@@ -488,7 +511,6 @@ body {
     clip: rect(0px, 42px, 42px, 0px);
   }
 }
-
 @keyframes clawing-top {
   0% {
 	transform: rotate(0deg);
@@ -515,7 +537,6 @@ body {
 	transform: rotate(0deg);
   }
 }
-
 @keyframes clawing-bottom {
   0% {
 	transform: rotate(0deg);
@@ -542,7 +563,6 @@ body {
 	transform: rotate(0deg);
   }
 }
-
 /*Heart*/
 .heart-wrapper {
 	position: absolute;
@@ -551,7 +571,6 @@ body {
 	height: 20px;
 	width: 20px;
 }
-
 .heart-wrapper .heart {
 	display: block;
 	height: 15px;
@@ -563,26 +582,22 @@ body {
 	position: absolute;
 	z-index: 0;
 }
-
 .heart-wrapper .heart > * {
 	overflow: hidden;
 	position: absolute;
 }
-
 .heart-wrapper .heart > *:after {
 	display: block;
 	content: '';
 	position: absolute;
 	background: #F27173;
 }
-
 .heart-wrapper .heart .tl {
 	height: 25%;
 	width: 50.25%;
 	top: 0;
 	left: 0;
 }
-
 .heart-wrapper .heart .tl:after {
 	top: 0;
 	left: 0;
@@ -593,14 +608,12 @@ body {
  	border-bottom-right-radius: 50% 50%;
 	border-bottom-left-radius: 50% 50%;
 }
-
 .heart-wrapper .heart .tr {
 	height: 25%;
 	width: 50.25%;
 	top: 0;
 	right: 0;
 }
-
 .heart-wrapper .heart .tr:after {
 	top: 0;
 	right: 0;
@@ -611,14 +624,12 @@ body {
 	border-bottom-right-radius: 50% 50%;
 	border-bottom-left-radius: 50% 50%;
 }
-
 .heart-wrapper .heart .bl {
 	height: 75.5%;
 	width: 50.25%;
 	bottom: 0;
 	left: 0;
 }
-
 .heart-wrapper .heart .bl:after {
 	top: 0;
 	left: 0;
@@ -629,14 +640,12 @@ body {
 	border-bottom-right-radius: 0 0;
 	border-bottom-left-radius: 100% 100%;
 }
-
 .heart-wrapper .heart .br {
  	height: 75.5%;
 	width: 50.25%;
  	bottom: 0;
 	right: 0;
 }
-
 .heart-wrapper .heart .br:after {
 	top: 0;
 	right: 0;
@@ -646,6 +655,10 @@ body {
 	border-top-right-radius: 0 0;
 	border-bottom-right-radius: 100% 100%;
 	border-bottom-left-radius: 0 0;
+}
+
+.container {
+	margin-top: 50px;
 }
 </style>
 </head>
