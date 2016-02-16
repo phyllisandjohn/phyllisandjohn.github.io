@@ -41,9 +41,9 @@ input[type="submit"] {
 }
 
 .search ul {
-  width: 65%;
+  width: 85%;
   position: absolute;
-  left: 5%
+  left: 5%;
   margin-top: 124px;
   text-align: left;
 }
