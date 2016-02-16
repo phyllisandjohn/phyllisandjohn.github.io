@@ -1,7 +1,7 @@
 .recieved {
   width: 85%;
   height: 40px;
-  position: absolute;
+  float: left;
   margin-left: 5%;
   margin-top: 58px;
   background: rgba(122,201,191,.7);
