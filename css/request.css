@@ -15,7 +15,7 @@
 }
 
 form {
-  width: 65%;
+  width: 85%;
 }
 
 .search input[type="text"] {
@@ -35,7 +35,7 @@ form {
 input[type="submit"] {
   float: left;
   height: 45px;
-  width: 100px;
+  width: 15%;
   margin-top: 100px;
   background: rgb(249,214,193);
   border: none;
