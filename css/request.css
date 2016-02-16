@@ -43,8 +43,7 @@ input[type="submit"] {
 .search ul {
   width: 65%;
   position: absolute;
-  left: 50%; 
-  margin-left: -253px;
+  left: 5%
   margin-top: 124px;
   text-align: left;
 }
