@@ -15,7 +15,7 @@
 }
 
 .search input[type="text"] {
-  width: 65%;
+  width: 85%;
   height: 40px;
   float: left;
   margin-left: 5%;
@@ -31,7 +31,7 @@
 input[type="submit"] {
   position: absolute;
   left: 50%;
-  margin-left: -50px;
+  margin-left: 100px;
   height: 45px;
   width: 100px;
   margin-top: 25px;
