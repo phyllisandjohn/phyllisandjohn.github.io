@@ -849,7 +849,7 @@ textarea {
 <script>
 function validateForm() {
     var x = document.forms["rsvp"]["names"].value;
-    if (!isNaN(x) || x !="" || x != null || x != " ") {
+    if (!isNaN(x)) {
         alert("Please enter the names of your guests instead of " + x + " , if there are accompanying guests. Otherwise, please leave this field blank!");
         return false;
     }
